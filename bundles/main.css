@@ -1871,7 +1871,7 @@ input {
     display: -ms-flexbox;
     display: flex;
     margin: 0 auto;
-    margin-bottom: 70px;
+    margin-bottom: 70px !important;
   }
 
   .slider__br {
