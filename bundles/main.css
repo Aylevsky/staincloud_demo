@@ -2,30 +2,6 @@
  * DEFAULT
 **/
 
-/*
-$media: (
-  sm: (
-    width: 375px,
-    container: 100%,
-    padding: 20px,
-  ),
-  md: (
-    width: 868px,
-    container: 100%,
-    padding: 20px,
-  ),
-  lg: (
-    width: 1124px + (30px * 2),
-    padding: 30px,
-  ),
-  xl: (
-    width: 1398px + 80px + (40px * 2),
-    container: 1398px + (40px * 2),
-    padding: 40px,
-  ),
-);
-*/
-
 * {
   padding: 0;
   margin: 0;
@@ -45,7 +21,7 @@ form {
 }
 
 html {
-  zoom: 80%;
+  zoom: 70%;
 }
 
 html,
@@ -1393,13 +1369,7 @@ input {
   margin-right: 40px;
 }
 
-@media (min-width: 834px) {
-  .header__left {
-    grid-column-gap: 0px;
-  }
-}
-
-@media (min-width: 868px) {
+@media (min-width: 607.6px) {
   .advantages__wrapper {
     -ms-grid-columns: (minmax(auto, 349px))[2];
     grid-template-columns: repeat(2, minmax(auto, 349px));
@@ -1425,7 +1395,13 @@ input {
   }
 }
 
-@media (min-width: 1034px) {
+@media (min-width: 646.8px) {
+  .header__left {
+    grid-column-gap: 0px;
+  }
+}
+
+@media (min-width: 846.8px) {
   .advantages__wrapper {
     -ms-grid-columns: (minmax(auto, 349px))[3];
     grid-template-columns: repeat(3, minmax(auto, 349px));
@@ -1471,7 +1447,7 @@ input {
   }
 }
 
-@media (min-width: 1260px) {
+@media (min-width: 1138.6px) {
   .container {
     width: 1478px;
     padding: 0 40px;
@@ -1483,7 +1459,7 @@ input {
   }
 
   .container_big {
-    width: 1530px;
+    width: 1330px;
     padding: 0;
   }
 }
@@ -1493,7 +1469,7 @@ input {
     margin-top: calc(
         70px + 37 *
           (
-            (100vw - 375px) / 1103
+            (100vw - 262.5px) / 1215.5
           )
       );
   }
@@ -1502,7 +1478,7 @@ input {
     margin-top: calc(
         20px + 14 *
           (
-            (100vw - 375px) / 1103
+            (100vw - 262.5px) / 1215.5
           )
       );
   }
@@ -1511,7 +1487,7 @@ input {
     margin-bottom: calc(
         15px + 11 *
           (
-            (100vw - 375px) / 1103
+            (100vw - 262.5px) / 1215.5
           )
       );
   }
@@ -1520,7 +1496,7 @@ input {
     padding-top: calc(
         38px + 54 *
           (
-            (100vw - 375px) / 1103
+            (100vw - 262.5px) / 1215.5
           )
       );
   }
@@ -1529,7 +1505,7 @@ input {
     padding-bottom: calc(
         18px + 54 *
           (
-            (100vw - 375px) / 1103
+            (100vw - 262.5px) / 1215.5
           )
       );
   }
@@ -1538,7 +1514,7 @@ input {
     margin-top: calc(
         40px + 15 *
           (
-            (100vw - 375px) / 1103
+            (100vw - 262.5px) / 1215.5
           )
       );
   }
@@ -1547,7 +1523,7 @@ input {
     font-size: calc(
         40px + 30 *
           (
-            (100vw - 375px) / 1103
+            (100vw - 262.5px) / 1215.5
           )
       );
   }
@@ -1556,7 +1532,7 @@ input {
     font-size: calc(
         24px + 26 *
           (
-            (100vw - 375px) / 1103
+            (100vw - 262.5px) / 1215.5
           )
       );
   }
@@ -1565,7 +1541,7 @@ input {
     font-size: calc(
         32px + 8 *
           (
-            (100vw - 375px) / 1103
+            (100vw - 262.5px) / 1215.5
           )
       );
   }
@@ -1574,7 +1550,7 @@ input {
     padding: calc(
         38px + 9 *
           (
-            (100vw - 375px) / 1103
+            (100vw - 262.5px) / 1215.5
           )
       );
   }
@@ -1583,7 +1559,7 @@ input {
     height: calc(
         30.23px + 14.06 *
           (
-            (100vw - 375px) / 1103
+            (100vw - 262.5px) / 1215.5
           )
       );
   }
@@ -1592,7 +1568,7 @@ input {
     width: calc(
         200px + 93 *
           (
-            (100vw - 375px) / 1103
+            (100vw - 262.5px) / 1215.5
           )
       );
   }
@@ -1601,7 +1577,7 @@ input {
     gap: calc(
         0px + 44 *
           (
-            (100vw - 375px) / 1103
+            (100vw - 262.5px) / 1215.5
           )
       );
   }
@@ -1610,7 +1586,7 @@ input {
     padding-top: calc(
         5px + 15 *
           (
-            (100vw - 375px) / 1103
+            (100vw - 262.5px) / 1215.5
           )
       );
   }
@@ -1619,7 +1595,7 @@ input {
     padding-bottom: calc(
         5px + 15 *
           (
-            (100vw - 375px) / 1103
+            (100vw - 262.5px) / 1215.5
           )
       );
   }
@@ -1628,7 +1604,7 @@ input {
     padding-left: calc(
         5px + 35 *
           (
-            (100vw - 375px) / 1103
+            (100vw - 262.5px) / 1215.5
           )
       );
   }
@@ -1637,7 +1613,7 @@ input {
     padding-right: calc(
         5px + 35 *
           (
-            (100vw - 375px) / 1103
+            (100vw - 262.5px) / 1215.5
           )
       );
   }
@@ -1646,7 +1622,7 @@ input {
     height: calc(
         30.23px + 14.06 *
           (
-            (100vw - 375px) / 1103
+            (100vw - 262.5px) / 1215.5
           )
       );
   }
@@ -1655,7 +1631,7 @@ input {
     width: calc(
         200px + 93 *
           (
-            (100vw - 375px) / 1103
+            (100vw - 262.5px) / 1215.5
           )
       );
   }
@@ -1664,7 +1640,7 @@ input {
     margin-bottom: calc(
         80.6px + 113.4 *
           (
-            (100vw - 375px) / 1103
+            (100vw - 262.5px) / 1215.5
           )
       );
   }
@@ -1673,7 +1649,7 @@ input {
     margin-top: calc(
         80px + 74 *
           (
-            (100vw - 375px) / 1103
+            (100vw - 262.5px) / 1215.5
           )
       );
   }
@@ -1682,7 +1658,7 @@ input {
     margin-bottom: calc(
         46px + 58 *
           (
-            (100vw - 375px) / 1103
+            (100vw - 262.5px) / 1215.5
           )
       );
   }
@@ -1691,7 +1667,7 @@ input {
     margin-bottom: calc(
         69px + 23 *
           (
-            (100vw - 375px) / 1103
+            (100vw - 262.5px) / 1215.5
           )
       );
   }
@@ -1700,7 +1676,7 @@ input {
     font-size: calc(
         15px + 5 *
           (
-            (100vw - 375px) / 1103
+            (100vw - 262.5px) / 1215.5
           )
       );
   }
@@ -1709,7 +1685,7 @@ input {
     width: calc(
         335px + 464 *
           (
-            (100vw - 375px) / 1103
+            (100vw - 262.5px) / 1215.5
           )
       );
   }
@@ -1718,7 +1694,7 @@ input {
     height: calc(
         200.4px + 277.6 *
           (
-            (100vw - 375px) / 1103
+            (100vw - 262.5px) / 1215.5
           )
       );
   }
@@ -1727,7 +1703,7 @@ input {
     font-size: calc(
         15px + 3 *
           (
-            (100vw - 375px) / 1103
+            (100vw - 262.5px) / 1215.5
           )
       );
   }
@@ -1736,7 +1712,7 @@ input {
     font-size: calc(
         32px + 18 *
           (
-            (100vw - 375px) / 1103
+            (100vw - 262.5px) / 1215.5
           )
       );
   }
@@ -1745,7 +1721,7 @@ input {
     margin-top: calc(
         33px + 37 *
           (
-            (100vw - 375px) / 1103
+            (100vw - 262.5px) / 1215.5
           )
       );
   }
@@ -1754,7 +1730,7 @@ input {
     margin-bottom: calc(
         55px + 13 *
           (
-            (100vw - 375px) / 1103
+            (100vw - 262.5px) / 1215.5
           )
       );
   }
@@ -1763,7 +1739,7 @@ input {
     margin-bottom: calc(
         27px + 17 *
           (
-            (100vw - 375px) / 1103
+            (100vw - 262.5px) / 1215.5
           )
       );
   }
@@ -1772,7 +1748,7 @@ input {
     margin-top: calc(
         10px + 65 *
           (
-            (100vw - 375px) / 1103
+            (100vw - 262.5px) / 1215.5
           )
       );
   }
@@ -1781,7 +1757,7 @@ input {
     margin-bottom: calc(
         33px + 29 *
           (
-            (100vw - 375px) / 1103
+            (100vw - 262.5px) / 1215.5
           )
       );
   }
@@ -1790,7 +1766,7 @@ input {
     margin-top: calc(
         12px + 28 *
           (
-            (100vw - 375px) / 1103
+            (100vw - 262.5px) / 1215.5
           )
       );
   }
@@ -1799,7 +1775,7 @@ input {
     margin-bottom: calc(
         23px + 25 *
           (
-            (100vw - 375px) / 1103
+            (100vw - 262.5px) / 1215.5
           )
       );
   }
@@ -1808,7 +1784,7 @@ input {
     margin-bottom: calc(
         10px + 9 *
           (
-            (100vw - 375px) / 1103
+            (100vw - 262.5px) / 1215.5
           )
       );
   }
@@ -1817,7 +1793,7 @@ input {
     padding-top: calc(
         21.5px + -6.5 *
           (
-            (100vw - 375px) / 1103
+            (100vw - 262.5px) / 1215.5
           )
       );
   }
@@ -1826,7 +1802,7 @@ input {
     padding-bottom: calc(
         21.5px + -6.5 *
           (
-            (100vw - 375px) / 1103
+            (100vw - 262.5px) / 1215.5
           )
       );
   }
@@ -1835,7 +1811,7 @@ input {
     padding-left: calc(
         90.5px + -26.5 *
           (
-            (100vw - 375px) / 1103
+            (100vw - 262.5px) / 1215.5
           )
       );
   }
@@ -1844,7 +1820,7 @@ input {
     padding-right: calc(
         90.5px + -26.5 *
           (
-            (100vw - 375px) / 1103
+            (100vw - 262.5px) / 1215.5
           )
       );
   }
@@ -1853,7 +1829,7 @@ input {
     width: calc(
         191px + 249 *
           (
-            (100vw - 375px) / 1103
+            (100vw - 262.5px) / 1215.5
           )
       );
   }
@@ -1862,7 +1838,7 @@ input {
     padding-top: calc(
         23px + -1.5 *
           (
-            (100vw - 375px) / 1103
+            (100vw - 262.5px) / 1215.5
           )
       );
   }
@@ -1871,7 +1847,7 @@ input {
     padding-bottom: calc(
         23px + -1.5 *
           (
-            (100vw - 375px) / 1103
+            (100vw - 262.5px) / 1215.5
           )
       );
   }
@@ -1880,7 +1856,7 @@ input {
     padding-left: calc(
         20px + 20 *
           (
-            (100vw - 375px) / 1103
+            (100vw - 262.5px) / 1215.5
           )
       );
   }
@@ -1889,7 +1865,7 @@ input {
     padding-right: calc(
         20px + 20 *
           (
-            (100vw - 375px) / 1103
+            (100vw - 262.5px) / 1215.5
           )
       );
   }
@@ -1898,7 +1874,7 @@ input {
     margin-top: calc(
         23px + -1.5 *
           (
-            (100vw - 375px) / 1103
+            (100vw - 262.5px) / 1215.5
           )
       );
   }
@@ -1907,7 +1883,7 @@ input {
     margin-bottom: calc(
         23px + -1.5 *
           (
-            (100vw - 375px) / 1103
+            (100vw - 262.5px) / 1215.5
           )
       );
   }
@@ -1916,7 +1892,7 @@ input {
     margin-left: calc(
         20px + 20 *
           (
-            (100vw - 375px) / 1103
+            (100vw - 262.5px) / 1215.5
           )
       );
   }
@@ -1925,13 +1901,13 @@ input {
     margin-right: calc(
         20px + 20 *
           (
-            (100vw - 375px) / 1103
+            (100vw - 262.5px) / 1215.5
           )
       );
   }
 }
 
-@media (max-width: 1034px) {
+@media (max-width: 846.8px) {
   .container {
     width: 100%;
     padding: 0 20px;
@@ -2027,18 +2003,18 @@ input {
   }
 }
 
-@media (max-width: 1034px) and (max-width: 1478px) {
+@media (max-width: 846.8px) and (max-width: 1478px) {
   .panel__wrapper {
     grid-row-gap: calc(
         34px + 40 *
           (
-            (100vw - 375px) / 1103
+            (100vw - 262.5px) / 1215.5
           )
       );
   }
 }
 
-@media (max-width: 960px) {
+@media (max-width: 838.6px) {
   .header__link {
     width: -webkit-min-content;
     width: -moz-min-content;
@@ -2061,7 +2037,19 @@ input {
   }
 }
 
-@media (max-width: 868px) {
+@media (max-width: 646.8px) {
+  .header__navigation {
+    display: none;
+  }
+
+  .header__gamburger {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+
+@media (max-width: 607.6px) {
   .advantages__wrapper {
     -ms-grid-columns: (minmax(auto, 349px))[1];
     grid-template-columns: repeat(1, minmax(auto, 349px));
@@ -2139,29 +2127,17 @@ input {
   }
 }
 
-@media (max-width: 834px) {
-  .header__navigation {
-    display: none;
-  }
-
-  .header__gamburger {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-  }
-}
-
-@media (min-width: 868px) {
+@media (min-width: 607.6px) {
 
   .webp .footer { background-image: url(../images/blocks/footer/mask-tablet.webp); }
 }
 
-@media (min-width: 1034px) {
+@media (min-width: 846.8px) {
 
   .webp .footer { background-image: url(../images/blocks/footer/mask-desk.webp), url(../images/blocks/footer/footer-bg.webp); }
 }
 
-@media (max-width: 868px) {
+@media (max-width: 607.6px) {
 
   .webp .footer { background-image: url(../images/blocks/footer/mask-mobile.webp); }
 }
