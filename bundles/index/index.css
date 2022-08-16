@@ -1,3 +1,27 @@
+/*
+$media: (
+  sm: (
+    width: 375px,
+    container: 100%,
+    padding: 20px,
+  ),
+  md: (
+    width: 868px,
+    container: 100%,
+    padding: 20px,
+  ),
+  lg: (
+    width: 1124px + (30px * 2),
+    padding: 30px,
+  ),
+  xl: (
+    width: 1398px + 80px + (40px * 2),
+    container: 1398px + (40px * 2),
+    padding: 40px,
+  ),
+);
+*/
+
 .index {
   background: #000;
 }
