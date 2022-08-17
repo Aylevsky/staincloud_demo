@@ -9,7 +9,14 @@
     <title>Главная</title>
     <link rel="stylesheet" href="./bundles/index/index.min.css">
   </head>
-  <body class="index"> 
+  <body class="index" id="index">
+    <div class="index__paralax" id="index__paralax">
+      <div class="index__paralax-el-1" data-depth="0.7"><picture><source srcset="./images/vector-1.webp, " type="image/webp"><img src="./images/vector-1.png" alt="" srcset=""></picture></div>
+      <div class="index__paralax-el-2" data-depth="0.7"><picture><source srcset="./images/vector-2.webp, " type="image/webp"><img src="./images/vector-2.png" alt="" srcset=""></picture></div>
+      <div class="index__paralax-el-3" data-depth="0.7"><picture><source srcset="./images/vector-3.webp, " type="image/webp"><img src="./images/vector-3.png" alt="" srcset=""></picture></div>
+      <div class="index__paralax-el-4" data-depth="0.7"><picture><source srcset="./images/vector-2.webp, " type="image/webp"><img src="./images/vector-2.png" alt="" srcset=""></picture></div>
+      <div class="index__paralax-el-5" data-depth="0.7"><picture><source srcset="./images/vector-4.webp, " type="image/webp"><img src="./images/vector-4.png" alt="" srcset=""></picture></div>
+    </div>
     <header class="header" id="header">
       <div class="container">
         <div class="header__wrapper"> <a class="header__logo" href="index.html"> <img src="./images/logo.svg" alt="Logo" loading="lazy"></a>
@@ -578,6 +585,7 @@
         </div>
       </footer>
     </main>
+    <!--script(src="./vendor/parallax/parallax.js") -->
     <link rel="stylesheet" href="./vendor/swiper/swiper-bundle.min.css">
     <script src="./vendor/swiper/swiper-bundle.min.js"> </script>
     <script src="https://unpkg.com/vue@3"></script>

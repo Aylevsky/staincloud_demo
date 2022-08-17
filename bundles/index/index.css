@@ -1,27 +1,157 @@
-/*
-$media: (
-  sm: (
-    width: 375px,
-    container: 100%,
-    padding: 20px,
-  ),
-  md: (
-    width: 868px,
-    container: 100%,
-    padding: 20px,
-  ),
-  lg: (
-    width: 1124px + (30px * 2),
-    padding: 30px,
-  ),
-  xl: (
-    width: 1398px + 80px + (40px * 2),
-    container: 1398px + (40px * 2),
-    padding: 40px,
-  ),
-);
-*/
-
 .index {
-  background: #000;
+  background-color: #000;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position: top center;
+}
+
+.index__paralax {
+  display: none;
+  position: absolute;
+  top: 0;
+  height: 100%;
+  z-index: -2 !important;
+}
+
+.index__paralax-el-1 {
+  position: absolute !important;
+  left: auto !important;
+}
+
+.index__paralax-el-2 {
+  position: absolute !important;
+  right: auto !important;
+}
+
+.index__paralax-el-3 {
+  position: absolute !important;
+  left: auto !important;
+}
+
+.index__paralax-el-4 {
+  position: absolute !important;
+  right: auto !important;
+}
+
+.index__paralax-el-5 {
+  position: absolute !important;
+  left: auto !important;
+}
+
+@media (min-width: 607.6px) {
+  .no-webp .index {
+    background-image: url("../../images/main-bg-tablet.png"), url("../../images/vector-tabl.png"), url("../../images/vector-tabl.png"), url("../../images/vector-tabl.png"), url("../../images/vector-tabl.png"); }
+  .index {
+    background-size: 100% auto, 992px 756px, 992px 756px, 992px 756px, 992px 756px;
+    background-position: top center, left -400px top 900px, right -400px top 1456px, left -400px top 2200px, right -400px top 3080px;
+  }
+}
+
+@media (min-width: 846.8px) {
+  .no-webp .index {
+    background-image: url("../../images/main-bg.png"); }
+  .index {
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: top center;
+  }
+
+  .index__paralax-el-1 {
+    top: -30px !important;
+    right: -50px !important;
+    display: block !important;
+  }
+
+  .index__paralax-el-2 {
+    display: none !important;
+  }
+
+  .index__paralax-el-3 {
+    top: 1900px !important;
+    right: -800px;
+    display: block !important;
+  }
+
+  .index__paralax-el-4 {
+    display: none !important;
+  }
+
+  .index__paralax-el-5 {
+    display: none !important;
+  }
+}
+
+@media (min-width: 1046.8px) {
+  .index__paralax {
+    display: block;
+    left: calc(50% - 686px);
+    width: 1372px !important;
+  }
+}
+
+@media (min-width: 1138.6px) {
+  .index__paralax {
+    display: block;
+    left: calc(50% - 960px);
+    width: 1920px !important;
+  }
+
+  .index__paralax-el-1 {
+    right: 100px !important;
+    display: block !important;
+  }
+
+  .index__paralax-el-2 {
+    top: 1050px !important;
+    left: -700px !important;
+    display: block !important;
+  }
+
+  .index__paralax-el-3 {
+    top: 1900px !important;
+    right: -750px !important;
+    display: block !important;
+  }
+
+  .index__paralax-el-4 {
+    top: 2785px !important;
+    left: -700px !important;
+    display: block !important;
+  }
+
+  .index__paralax-el-5 {
+    top: 2920px !important;
+    right: 0px !important;
+    display: block !important;
+  }
+}
+
+@media (max-width: 607.6px) {
+  .no-webp .index {
+    background-image: url("../../images/vector-mobile.png"), url("../../images/vector-mobile.png"), url("../../images/vector-mobile.png"); }
+  .index {
+    background-size: 740px 564px, 740px 564px, 740px 564px;
+    background-position: right -300px top 3000px, left -300px top 3500px, right -250px top 4100px;
+  }
+}
+
+@media (pointer: coarse) {
+  .index__paralax {
+    display: none;
+  }
+}
+
+@media (min-width: 607.6px) {
+
+  .webp .index { background-image: url(../../images/main-bg-tablet.webp), url(../../images/vector-tabl.webp), url(../../images/vector-tabl.webp), url(../../images/vector-tabl.webp), url(../../images/vector-tabl.webp); }
+}
+
+@media (min-width: 846.8px) {
+
+  .webp .index { background-image: url(../../images/main-bg.webp); }
+}
+
+@media (max-width: 607.6px) {
+
+  .webp .index { background-image: url(../../images/vector-mobile.webp), url(../../images/vector-mobile.webp), url(../../images/vector-mobile.webp); }
 }
