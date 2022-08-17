@@ -128,10 +128,10 @@
 
 @media (max-width: 607.6px) {
   .no-webp .index {
-    background-image: url("../../images/vector-mobile.png"), url("../../images/vector-mobile.png"), url("../../images/vector-mobile.png"); }
+    background-image: url("../../images/vector-mobile.png"), url("../../images/vector-mobile.png"), url("../../images/vector-mobile.png"), url("../../images/vector-mobile.png"); }
   .index {
-    background-size: 740px 564px, 740px 564px, 740px 564px;
-    background-position: right -300px top 3000px, left -300px top 3500px, right -250px top 4100px;
+    background-size: 962px 733.2px, 740px 564px, 740px 564px, 740px 564px;
+    background-position: top -100px center, right -300px top 3000px, left -300px top 3500px, right -250px top 4100px;
   }
 }
 
@@ -153,5 +153,5 @@
 
 @media (max-width: 607.6px) {
 
-  .webp .index { background-image: url(../../images/vector-mobile.webp), url(../../images/vector-mobile.webp), url(../../images/vector-mobile.webp); }
+  .webp .index { background-image: url(../../images/vector-mobile.webp), url(../../images/vector-mobile.webp), url(../../images/vector-mobile.webp), url(../../images/vector-mobile.webp); }
 }
