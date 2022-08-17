@@ -146,7 +146,7 @@ input {
   text-align: center;
   margin: 0 auto;
   color: #696d84;
-  font-weight: 400;
+  font-weight: 500;
   font-size: 18px;
   line-height: 25px;
 }
@@ -294,7 +294,7 @@ input {
   width: fit-content;
   font-family: "Inter";
   font-style: normal;
-  font-weight: 400;
+  font-weight: 500;
   font-size: 16px;
   line-height: 19px;
   color: #696d84;
@@ -335,7 +335,7 @@ input {
   display: flex;
   gap: 10px;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 500;
   font-size: 16px;
   line-height: 19px;
   color: #838cc1;
@@ -632,7 +632,7 @@ input {
   width: fit-content;
   font-family: "Inter";
   font-style: normal;
-  font-weight: 400;
+  font-weight: 500;
   font-size: 16px;
   line-height: 19px;
   color: #696d84;
@@ -712,7 +712,7 @@ input {
 }
 
 .panel__button span {
-  font-weight: 400;
+  font-weight: 500;
   font-size: 20px;
   font-size: 20px;
   line-height: 120%;
@@ -830,7 +830,7 @@ input {
 }
 
 .paragraph {
-  font-weight: 400;
+  font-weight: 500;
   font-size: 16px;
   line-height: 175%;
   text-align: center;
@@ -1126,7 +1126,7 @@ input {
 
 .slider__col-1 ul li {
   font-style: normal;
-  font-weight: 400;
+  font-weight: 500;
   font-size: 16px;
   line-height: 162.5%;
   color: #b7b2c0;
@@ -1272,6 +1272,10 @@ input {
   cursor: pointer !important;
 }
 
+.slider ul {
+  max-width: 638px;
+}
+
 .swiper {
   width: 100%;
   height: 100%;
@@ -1369,6 +1373,67 @@ input {
   margin-right: 40px;
 }
 
+.table {
+  color: #fff;
+  margin: 50px;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+  text-align: left;
+  font-size: 14px;
+  color: white;
+  width: 100%;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.table td {
+  background-color: #15212c;
+}
+
+.table td {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+  vertical-align: middle;
+}
+
+.table td span {
+  color: #747882;
+}
+
+.table tr {
+  background: #150232 !important;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.table thead th {
+  font-weight: bold;
+  text-align: left;
+  border: none;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+  background: #150232;
+}
+
+.table tbody td {
+  text-align: left;
+  border: none;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+  vertical-align: top;
+  border-width: 15px;
+  border-style: solid;
+  border-color: #141923;
+}
+
 @media (min-width: 607.6px) {
   .advantages__wrapper {
     -ms-grid-columns: (minmax(auto, 349px))[2];
@@ -1456,6 +1521,12 @@ input {
   .container_big {
     width: 1530px !important;
     padding: 0;
+  }
+}
+
+@media (min-width: 1398px) {
+  html {
+    zoom: 100%;
   }
 }
 
@@ -1895,6 +1966,177 @@ input {
   .spoiler p {
     margin-right: calc(
         20px + 20 *
+          (
+            (100vw - 262.5px) / 1215.5
+          )
+      );
+  }
+
+  .table {
+    margin: calc(
+        30px + 20 *
+          (
+            (100vw - 262.5px) / 1215.5
+          )
+      );
+  }
+
+  .table {
+    font-size: calc(
+        10px + 4 *
+          (
+            (100vw - 262.5px) / 1215.5
+          )
+      );
+  }
+
+  .table td {
+    padding-top: calc(
+        3px + 12 *
+          (
+            (100vw - 262.5px) / 1215.5
+          )
+      );
+  }
+
+  .table td {
+    padding-bottom: calc(
+        3px + 12 *
+          (
+            (100vw - 262.5px) / 1215.5
+          )
+      );
+  }
+
+  .table td {
+    padding-left: calc(
+        3px + 12 *
+          (
+            (100vw - 262.5px) / 1215.5
+          )
+      );
+  }
+
+  .table td {
+    padding-right: calc(
+        3px + 12 *
+          (
+            (100vw - 262.5px) / 1215.5
+          )
+      );
+  }
+
+  .table tr {
+    padding-top: calc(
+        3px + 12 *
+          (
+            (100vw - 262.5px) / 1215.5
+          )
+      );
+  }
+
+  .table tr {
+    padding-bottom: calc(
+        3px + 12 *
+          (
+            (100vw - 262.5px) / 1215.5
+          )
+      );
+  }
+
+  .table tr {
+    padding-left: calc(
+        3px + 12 *
+          (
+            (100vw - 262.5px) / 1215.5
+          )
+      );
+  }
+
+  .table tr {
+    padding-right: calc(
+        3px + 12 *
+          (
+            (100vw - 262.5px) / 1215.5
+          )
+      );
+  }
+
+  .table thead th {
+    padding-top: calc(
+        3px + 12 *
+          (
+            (100vw - 262.5px) / 1215.5
+          )
+      );
+  }
+
+  .table thead th {
+    padding-bottom: calc(
+        3px + 12 *
+          (
+            (100vw - 262.5px) / 1215.5
+          )
+      );
+  }
+
+  .table thead th {
+    padding-left: calc(
+        3px + 12 *
+          (
+            (100vw - 262.5px) / 1215.5
+          )
+      );
+  }
+
+  .table thead th {
+    padding-right: calc(
+        3px + 12 *
+          (
+            (100vw - 262.5px) / 1215.5
+          )
+      );
+  }
+
+  .table tbody td {
+    padding-top: calc(
+        3px + 12 *
+          (
+            (100vw - 262.5px) / 1215.5
+          )
+      );
+  }
+
+  .table tbody td {
+    padding-bottom: calc(
+        3px + 12 *
+          (
+            (100vw - 262.5px) / 1215.5
+          )
+      );
+  }
+
+  .table tbody td {
+    padding-left: calc(
+        3px + 12 *
+          (
+            (100vw - 262.5px) / 1215.5
+          )
+      );
+  }
+
+  .table tbody td {
+    padding-right: calc(
+        3px + 12 *
+          (
+            (100vw - 262.5px) / 1215.5
+          )
+      );
+  }
+
+  .table tbody td {
+    border-width: calc(
+        3px + 12 *
           (
             (100vw - 262.5px) / 1215.5
           )
